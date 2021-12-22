@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
-from testdatapolars import data as testdata
+from experiment_polars import data as testdata
 
 file = open("wing simulation.txt", "r")
 lines = file.read().splitlines()
