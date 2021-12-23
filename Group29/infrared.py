@@ -73,12 +73,12 @@ def plot_infrared_image(folder, prefix, alpha):
 
     xc_transition, x_transition, x_leading_edge, x_trailing_edge = find_transition_point(image)
 
-    plt.imshow(image, cmap="plasma", interpolation="none")
+    plt.imshow(image, cmap="inferno", interpolation="none")
 
     plt.text(x_leading_edge - 5, height - 10, "LE", ha="right")
-    plt.text(x_leading_edge + 5, height - 10, f"Alpha = {alpha} [deg]")
+    plt.text(x_trailing_edge + 5, height - 305, f"Alpha = {alpha} [deg]")
     plt.text(x_trailing_edge + 5, height - 10, "TE")
-
+    # plt.text()
     # No clear transition beyond 15.5 deg and for hysteresis part
     # Only for 2D because 3D has curved transition line
     '''if (
@@ -110,5 +110,5 @@ def plot_infrared_image_all_alphas(folder, prefix):
 
 if __name__ == "__main__":
     # plot_infrared_image_all_alphas("2dIR", "2D")
-    plot_infrared_image_all_alphas("IR2d", "2D")
-    # plot_infrared_image("IR2D/0", "2D", "0")
+    # plot_infrared_image_all_alphas("IR2d", "2D")
+    plot_infrared_image("IR2D/0", "2D", "0")
