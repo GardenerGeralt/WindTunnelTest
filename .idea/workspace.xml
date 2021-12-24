@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0336c305-4544-4ce8-b25d-fe60d87b93a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/WindTunnelTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WindTunnelTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0336c305-4544-4ce8-b25d-fe60d87b93a2" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/3D polars/experiment_polars.py" beforeDir="false" afterPath="$PROJECT_DIR$/Group29/3D polars/experiment_polars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-29-58.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-29-59.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-29-59_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-29-59_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-30-00.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-30-00_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-30-00_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-30-01.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-37.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-37_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-37_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-38_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-38_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-39.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-39_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-56.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-56_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-56_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-56_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-57.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-57_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-57_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-58.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-31-58_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-32-29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-32-29_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-32-29_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-32-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-32-30_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-32-30_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-32-31.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-32-31_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-32-31_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-42.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-42_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-43.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-43_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-43_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-43_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-44.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-44_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-44_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group29/IR3D/Record_2021-12-03_13-33-44_2.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Group29/infrared.py" beforeDir="false" afterPath="$PROJECT_DIR$/Group29/infrared.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +103,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="experiment_polars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WindTunnelTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Group29/3D polars" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Group29/3D polars/experiment_polars.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="infrared" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WindTunnelTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,9 +147,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="simulation_polars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WindTunnelTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Group29/3D polars" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Group29/3D polars/simulation_polars.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.infrared" />
+        <item itemvalue="Python.simulation_polars" />
+        <item itemvalue="Python.experiment_polars" />
         <item itemvalue="Python.DD_plots" />
       </list>
     </recent_temporary>
@@ -99,7 +188,9 @@
       <updated>1638531080986</updated>
       <workItem from="1638531082284" duration="2626000" />
       <workItem from="1639674125476" duration="422000" />
-      <workItem from="1640264670609" duration="1145000" />
+      <workItem from="1640264670609" duration="4384000" />
+      <workItem from="1640348990649" duration="666000" />
+      <workItem from="1640363976155" duration="1737000" />
     </task>
     <servers />
   </component>
@@ -119,7 +210,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/infrared_py$infrared.coverage" NAME="infrared Coverage Results" MODIFIED="1640265684838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Group29" />
+    <SUITE FILE_PATH="coverage/infrared_py$infrared.coverage" NAME="infrared Coverage Results" MODIFIED="1640365697564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Group29" />
+    <SUITE FILE_PATH="coverage/infrared_py$experiment_polars.coverage" NAME="experiment_polars Coverage Results" MODIFIED="1640266699183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Group29/3D polars" />
+    <SUITE FILE_PATH="coverage/infrared_py$simulation_polars.coverage" NAME="simulation_polars Coverage Results" MODIFIED="1640267166607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Group29/3D polars" />
     <SUITE FILE_PATH="coverage/WindTunnelTest$2D_plots.coverage" NAME="DD_plots Coverage Results" MODIFIED="1639680125948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
