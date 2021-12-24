@@ -75,19 +75,19 @@ def plot_infrared_image(folder, prefix, alpha):
 
     plt.imshow(image, cmap="inferno", interpolation="none")
 
-    plt.text(x_leading_edge - 5, height - 10, "LE", ha="right")
-    plt.text(x_trailing_edge + 5, height - 305, f"Alpha = {alpha} [deg]")
-    plt.text(x_trailing_edge + 5, height - 10, "TE")
+    plt.text(x_leading_edge - 5, height - 10, "LE", ha="right", color='white')
+    plt.text(x_trailing_edge + 5, height - 305, f"Alpha = {alpha} [deg]", color='white')
+    plt.text(x_trailing_edge + 5, height - 10, "TE", color='white')
     # plt.text()
     # No clear transition beyond 15.5 deg and for hysteresis part
     # Only for 2D because 3D has curved transition line
-    '''if (
+    if (
             (prefix == "2D")
             and ("back" not in alpha)
             and (alpha[0] == "-" or float(alpha.split("-")[0]) <= 15.5)
     ):
-        plt.axvline(x_transition, c="black", linestyle=(0, (1, 10)))
-        plt.text(x_transition + 10, 20, f"x/c = {xc_transition:.2f}")'''
+        plt.axvline(x_transition, c="blue", linestyle=(0, ()))
+        plt.text(x_transition + 10, 20, f"x/c = {xc_transition:.2f}", color='white')
 
     plt.axis("off")
     plt.gcf().tight_layout(pad=0.1, h_pad=0.4, w_pad=0.4)
@@ -97,18 +97,21 @@ def plot_infrared_image(folder, prefix, alpha):
 
 def plot_infrared_image_all_alphas(folder, prefix):
     p = Pool()
-
+    transition_point = []
     folder = f"{folder}"
     for alpha in os.listdir(folder):
         full_path = os.path.join(folder, alpha)
         if os.path.isdir(full_path) and os.listdir(full_path):
             p.apply_async(plot_infrared_image, args=(full_path, prefix, alpha))
-
+            # im = load_infrared_from_file(folder)
+            #point = find_transition_point(im)
+            #transition_point.append(point)
+    #print(transition_point)
     p.close()
     p.join()
 
 
 if __name__ == "__main__":
     # plot_infrared_image_all_alphas("2dIR", "2D")
-    # plot_infrared_image_all_alphas("IR2d", "2D")
-    plot_infrared_image("IR2D/0", "2D", "0")
+    plot_infrared_image_all_alphas("extra", "2D")
+    # plot_infrared_image("IR2D/0", "2D", "0")
