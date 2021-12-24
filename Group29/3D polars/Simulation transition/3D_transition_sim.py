@@ -44,6 +44,6 @@ ax1.plot(data16[:, 1], data16[:, 0], linewidth=1, marker='*', color='saddlebrown
 ax1.set_xlabel(r'Transition location on chord [x/c]', fontsize=16)
 ax1.set_ylabel(r'Span [mm]', fontsize=16)
 plt.grid()
-plt.legend(loc=3, bbox_to_anchor=(0, 1), ncol=5, fontsize=16)
+plt.legend(loc=3, bbox_to_anchor=[0, 1, 0, 0], ncol=5, fontsize=11)
 plt.tight_layout()
 plt.savefig('Transitions_3d_sim.pdf', dpi=200)
