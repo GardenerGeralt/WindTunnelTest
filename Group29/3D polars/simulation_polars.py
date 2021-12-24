@@ -62,7 +62,7 @@ if model == 1:
             ax1.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
             ax1.set_ylabel(r'$C_L$ [-]', fontsize=16)
             plt.grid()
-            plt.legend()
+            plt.legend(fontsize=11)
             plt.savefig('CL_alpha_3d_test_vs_sim.pdf', dpi=200)
         else:
             fig1, ax1 = plt.subplots(figsize=(8, 5))
@@ -85,7 +85,7 @@ if model == 1:
             ax2.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
             ax2.set_ylabel(r'$C_D$ [-]', fontsize=16)
             plt.grid()
-            plt.legend()
+            plt.legend(fontsize=11)
             plt.savefig('CD_alpha_3d_test_vs_sim.pdf', dpi=200)
         else:
             fig2, ax2 = plt.subplots(figsize=(8, 5))
@@ -109,7 +109,7 @@ if model == 1:
             # ax3.set_xlabel(r'$\alpha$ [deg]')
             # ax3.set_ylabel(r'$C_M$ [-]')
             # plt.grid()
-            # plt.legend()
+            # plt.legend(fontsize=11)
             # plt.savefig('CM_alpha_3d_test_vs_sim.pdf', dpi=200)
         else:
             fig3, ax3 = plt.subplots(figsize=(8, 5))
@@ -131,7 +131,7 @@ if model == 1:
             ax4.set_xlabel(r'$C_D$ [-]', fontsize=16)
             ax4.set_ylabel(r'$C_L$ [-]', fontsize=16)
             plt.grid()
-            plt.legend()
+            plt.legend(fontsize=11)
             plt.savefig('CL-CD_3d_test_vs_sim.pdf', dpi=200)
         else:
             fig4, ax4 = plt.subplots(figsize=(8, 5))
@@ -189,7 +189,7 @@ elif model == 2:
             ax1.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
             ax1.set_ylabel(r'$C_L$ [-]', fontsize=16)
             plt.grid()
-            plt.legend()
+            plt.legend(fontsize=11)
             plt.savefig('CL_alpha_3d_test_vs_sim.pdf', dpi=200)
         else:
             fig1, ax1 = plt.subplots(figsize=(8, 5))
@@ -212,7 +212,7 @@ elif model == 2:
             ax2.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
             ax2.set_ylabel(r'$C_D$ [-]', fontsize=16)
             plt.grid()
-            plt.legend()
+            plt.legend(fontsize=11)
             plt.savefig('CD_alpha_3d_test_vs_sim.pdf', dpi=200)
         else:
             fig2, ax2 = plt.subplots(figsize=(8, 5))
@@ -236,7 +236,7 @@ elif model == 2:
             # ax3.set_xlabel(r'$\alpha$ [deg]')
             # ax3.set_ylabel(r'$C_M$ [-]')
             # plt.grid()
-            # plt.legend()
+            # plt.legend(fontsize=11)
             # plt.savefig('CM_alpha_3d_test_vs_sim.pdf', dpi=200)
         else:
             fig3, ax3 = plt.subplots(figsize=(8, 5))
@@ -259,7 +259,7 @@ elif model == 2:
             ax4.set_xlabel(r'$C_D$ [-]', fontsize=16)
             ax4.set_ylabel(r'$C_L$ [-]', fontsize=16)
             plt.grid()
-            plt.legend()
+            plt.legend(fontsize=11)
             plt.savefig('CL-CD_3d_test_vs_sim.pdf', dpi=200)
         else:
             fig4, ax4 = plt.subplots(figsize=(8, 5))
@@ -325,7 +325,7 @@ elif model == 3:
         ax2.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
         ax2.set_ylabel(r'$C_L$ [-]', fontsize=16)
         plt.grid()
-        plt.legend()
+        plt.legend(fontsize=11)
         plt.savefig('CL_alpha_3d_sim_LLT_vs_VLM.pdf', dpi=200)
         if doall:
             choice = 3
@@ -339,7 +339,7 @@ elif model == 3:
         ax2.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
         ax2.set_ylabel(r'$C_D$ [-]', fontsize=16)
         plt.grid()
-        plt.legend()
+        plt.legend(fontsize=11)
         plt.savefig('CD_alpha_3d_sim_LLT_vs_VLM.pdf', dpi=200)
         if doall:
             choice = 4
@@ -353,7 +353,7 @@ elif model == 3:
         ax2.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
         ax2.set_ylabel(r'$C_M$ [-]', fontsize=16)
         plt.grid()
-        plt.legend()
+        plt.legend(fontsize=11)
         plt.savefig('CM_alpha_3d_sim_LLT_vs_VLM.pdf', dpi=200)
         if doall:
             choice = 5
@@ -367,7 +367,7 @@ elif model == 3:
         ax2.set_xlabel(r'$C_D$ [-]', fontsize=16)
         ax2.set_ylabel(r'$C_L$ [-]', fontsize=16)
         plt.grid()
-        plt.legend()
+        plt.legend(fontsize=11)
         plt.savefig('CL-CD_3d_sim_LLT_vs_VLM.pdf', dpi=200)
 
     plt.tight_layout()

@@ -41,6 +41,7 @@ if choice == 2:
     ax1.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
     ax1.set_ylabel(r'$C_L$ [-]', fontsize=16)
     plt.grid()
+    plt.legend(fontsize=11)
     plt.savefig('CL_alpha_3d_exp_unc_vs_corr.pdf', dpi=200)
     if all:
         choice = 3
@@ -55,6 +56,7 @@ if choice == 3:
     ax2.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
     ax2.set_ylabel(r'$C_D$ [-]', fontsize=16)
     plt.grid()
+    plt.legend(fontsize=11)
     plt.savefig('CD_alpha_3d_exp_unc_vs_corr.pdf', dpi=200)
     if all:
         choice = 4
@@ -69,6 +71,7 @@ if choice == 4:
     ax3.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
     ax3.set_ylabel(r'$(C_M)_{pitch}$ [-]', fontsize=16)
     plt.grid()
+    plt.legend(fontsize=11)
     plt.savefig('CMpitch_alpha_3d_exp_unc_vs_corr.pdf', dpi=200)
     if all:
         choice = 5
@@ -82,6 +85,7 @@ if choice == 5:
     ax4.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
     ax4.set_ylabel(r'$(C_M)_{roll}$ [-]', fontsize=16)
     plt.grid()
+    plt.legend(fontsize=11)
     plt.savefig('CMroll_alpha_3d_exp_unc_vs_corr.pdf', dpi=200)
     if all:
         choice = 6
@@ -95,6 +99,7 @@ if choice == 6:
     ax5.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
     ax5.set_ylabel(r'$(C_M)_{yaw}$ [-]', fontsize=16)
     plt.grid()
+    plt.legend(fontsize=11)
     plt.savefig('CMyaw_alpha_3d_exp_unc_vs_corr.pdf', dpi=200)
     if all:
         choice = 7
@@ -108,6 +113,7 @@ if choice == 7:
     ax6.set_xlabel(r'$C_D$ [-]', fontsize=16)
     ax6.set_ylabel(r'$C_L$ [-]', fontsize=16)
     plt.grid()
+    plt.legend(fontsize=11)
     plt.savefig('CL_CD_3d_exp_unc_vs_corr.pdf', dpi=200)
 
 if choice > 7 or choice < 1 or isinstance(choice, int) is False:
