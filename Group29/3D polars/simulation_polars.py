@@ -42,7 +42,7 @@ if model == 1:
     print("Avaliable polars:\n 1. All\n 2.CL-alpha\n 3.CD-alpha\n 4.CM-alpha\n 5.CL-CD\n 6.All, exp+sim")
     choice = int(input("Choose the desired polar (1-6): "))
     doall = False
-    docomp = False
+    docomp = True
 
     if choice == 1:
         doall = True
@@ -99,18 +99,17 @@ if model == 1:
             choice = 4
 
     if choice == 4:
-        if docomp: # removed this because idk which of the experiment CM's to use :(
-            boss = False
-            # fig1, ax3 = plt.subplots(figsize=(8, 5))
-            # ax3.plot(testdata[:, 1], testdata[:, 10], linewidth=1, marker='p', color='red', markersize=2.5,
-            #          label='Experimental CM-alpha')
-            # ax3.plot(data[:, 0], data[:, 6], linewidth=1, marker='s', markersize=2.5, color='orange',
-            #          label='Simulated CM-alpha')
-            # ax3.set_xlabel(r'$\alpha$ [deg]')
-            # ax3.set_ylabel(r'$C_M$ [-]')
-            # plt.grid()
-            # plt.legend(fontsize=11)
-            # plt.savefig('CM_alpha_3d_test_vs_sim.pdf', dpi=200)
+        if docomp:
+            fig1, ax3 = plt.subplots(figsize=(8, 5))
+            ax3.plot(testdata[:, 1], testdata[:, 11], linewidth=1, marker='p', color='red', markersize=4,
+                     label='Experimental CM-alpha')
+            ax3.plot(data[:, 0], data[:, 6], linewidth=1, marker='s', markersize=4, color='orange',
+                     label='Simulated CM-alpha')
+            ax3.set_xlabel(r'$\alpha$ [deg]', fontsize=16)
+            ax3.set_ylabel(r'$C_M$ [-]', fontsize=16)
+            plt.grid()
+            plt.legend(fontsize=11)
+            plt.savefig('CM_alpha_3d_test_vs_sim.pdf', dpi=200)
         else:
             fig3, ax3 = plt.subplots(figsize=(8, 5))
             ax3.plot(data[:, 0], data[:, 6], linewidth=1, marker='s', markersize=4, color='orange', label='Cm-alpha')
